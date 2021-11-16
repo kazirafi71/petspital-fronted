@@ -1,0 +1,29 @@
+.navbar_main_style {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.navLogo__style {
+  height: 40px;
+}
+
+.navIcon__Style {
+  height: 28px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .right_style {
+    display: none;
+  }
+  .navbar_main_style {
+    justify-content: center;
+  }
+  .navLogo__style {
+    display: block;
+    margin: 0 auto;
+  }
+}
