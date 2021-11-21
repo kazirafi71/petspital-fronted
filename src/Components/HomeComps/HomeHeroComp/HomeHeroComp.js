@@ -6,7 +6,7 @@ import rightImg from "../../../assets/HomeImage/catImg.svg";
 
 const HomeHeroComp = () => {
   return (
-    <div>
+    <>
       <div className={Styles.heroMain__Style}>
         {/* <img className={Styles.heroBgImg__Style} src={bgImg} alt="" /> */}
         <div className={Styles.hero_content__Style}>
@@ -68,7 +68,7 @@ const HomeHeroComp = () => {
           </Container>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
